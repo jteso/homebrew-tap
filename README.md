@@ -6,8 +6,4 @@ Install the Luminatti macOS app:
 brew install --cask jteso/tap/luminatti
 ```
 
-The existing command line package remains available as a formula:
-
-```sh
-brew install --formula jteso/tap/luminatti
-```
+Homebrew opens **Luminatti** after installation. Choose a repository when prompted. To build the desktop app from source, see the [Luminatti README](https://github.com/jteso/luminatti#install-from-source).

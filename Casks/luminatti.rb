@@ -16,4 +16,12 @@ cask "luminatti" do
   homepage "https://github.com/jteso/luminatti"
 
   app "Luminatti.app"
+
+  postflight do
+    system_command "/usr/bin/open",
+                   args: ["#{appdir}/Luminatti.app"],
+                   must_succeed: false
+  end
+
+  caveats "Luminatti is unsigned. If macOS blocks it, use Open Anyway in System Settings > Privacy & Security."
 end
