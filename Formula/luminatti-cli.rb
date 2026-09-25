@@ -1,4 +1,4 @@
-class Luminatti < Formula
+class LuminattiCli < Formula
   desc "A fast, mouse-aware worktree diff review TUI"
   homepage "https://github.com/jteso/luminatti-cli"
   version "0.1.1"
